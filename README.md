@@ -1,2 +1,2 @@
 # curso-python3
-Arquivos de desafios propostos por cursos e afins de Python3
+Arquivos de desafios propostos no curso de Python3 do Prof. Gustavo Guanabara
