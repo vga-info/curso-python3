@@ -3,4 +3,4 @@
 n1 = float(input('1ª Nota: '))
 n2 = float(input('2ª Nota: '))
 m = (n1+n2)/2
-print('A Média das notas é {}'.format(m))
+print('A Média das notas é {:.2f}'.format(m))

@@ -27,3 +27,8 @@ Exemplo:
 5+3*==11
 3*5+4**2==31
 3*(5+4)**2==243
+
+## Sobre o import, para puxar modulos adicionais
+modulo "doces" e nele temos as funções rosquinha, pudim e biscoito
+import doces #puxa todas os doces disponíveis no modulo doces
+from doces import pudim #importa somente o pudim que tem no modulo doces
