@@ -1,4 +1,5 @@
 =   ATRIBUIÇÃO (RECEBE)
+!=  DIFERENTE (Retorna True ou False)
 ==  COMPARAÇÃO (IGUAL)
 \n  PULA LINHA EM UM PRINT
 {:.3f} FORMATAÇÃO DE STRING EM UM PRINT, INDICA 3 CASAS DECIMAIS
@@ -37,5 +38,11 @@ import doces  # Importa todas as funções disponíveis no módulo 'doces'
 from doces import pudim  # Importa somente a função 'pudim' do módulo 'doces'
 
 ### AULA 009
+
+nome = str(input('Digite um nome completo: ')).strip() #.strip remove todos os  espaços no inicio e fim da string
+qtdletras = len(nome)  - conta quantos caracteres tem na variavel
+
+Testar se tem uma string dentro de uma variavel é usando o 'in' retornando True ou False
+result2 = 'silva' in nome # retorna dizendo se tem ou nao 'silva' na variavel nome
 
 ### AULA 010
