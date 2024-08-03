@@ -46,3 +46,11 @@ Testar se tem uma string dentro de uma variavel é usando o 'in' retornando True
 result2 = 'silva' in nome # retorna dizendo se tem ou nao 'silva' na variavel nome
 
 ### AULA 010
+
+CONDIÇÃO (Estrutura condicional)
+if carro.esquerda():
+    bloco True
+else:
+    bloco False
+
+    
