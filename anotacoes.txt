@@ -60,3 +60,34 @@ else:
 style > 0 (none) 1 (bold) 4(underline) 7 (negative)
 text > 30 (branco) 31 (vermelho) 32 (verde) 33 (amarelo) 34 (azul) 35 (magenta) 36 (ciano) (37 (cinza)
 back > 40 até 47 as mesmas cores acima
+
+para mais detalhes veja arquivo da aula011a.py
+
+### Aula 12 – Condições Aninhadas
+
+Aninhar é basicamente quando coloca uma coisa dentro de outra coisa...
+if dentro de if
+
+exemplo:
+carro.siga()
+se carro.esquerda()     [se = if] if carro.esquerda(): [:é importante, nao pode esquecer]
+    carro.siga()
+    carro.direita()
+    carro.siga()
+    carro.direita()
+    carro.esquerda()
+    carro.siga()
+    carro.direita()
+    carro.siga()
+senão se carro.direita()    [senão se = elif] elif carro.direita():
+    carro.siga()
+    carro.esquerda()
+    carro.siga()
+    carro.esquerda()
+    carro.siga()
+senão   [senão = else] é opcional, pode começar e terminar apenas com o if, ou até mesmo if e elif
+    carro.siga()
+carro.pare()
+
+Dentro de um if, quantos elif quiser, seguindo a estrutura: if > elif > elif > ... > elif > else
+
